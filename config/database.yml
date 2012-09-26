@@ -7,7 +7,7 @@ development:
   password:
 
 test: &TEST
-  adapter: postgresql
+  adapter: sqlite3
   encoding: utf8
   database: sampleapp_test
   pool: 5
